@@ -20,6 +20,10 @@ google_ad_client: ca-pub-9204963049240271
 
 post_limit: 5
 
+plugins: 
+  - jekyll-admin
+
+
 
 title : Ray Cornelius
 tagline: designer | developer | blogger | gamer | n3rd
