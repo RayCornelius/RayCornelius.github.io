@@ -5,28 +5,6 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
       <script src="jribbble.js"></script>
       <script src="bootstrap.js"></script>
-<script>
-
-$(document).ready(function()
-    //Paste your Client Access Token in the line below within quotes - you can build your API from https://dribbble.com/account/applications 
-    $.jribbble.setToken('31ab7fc9c25cbe4122efa08d82d5ee0998685a63cd93f0fd763045abb4bbd67d');
-    $.jribbble.users('xdxxascension').shots({per_page: 36}).then(function(shots) {
-    var html = [];
-  
-    shots.forEach(function(shot) {
-        html.push('<div className=-col-lg col-md-4 sm-6-> <div className=ddd>');
-        html.push('<a href="' + shot.html_url + '" target="_blank">');
-        html.push('<img className=--- src="' + shot.images.normal + '" alt="' + shot.title + '"><\/a>');
-        html.push('<div className=rrr><a target="_blank"  href="' + shot.html_url + '">');
-        html.push('<h2>' + shot.title + '<\/h2>');
-        html.push('<\/a> <\/div><\/div><\/div>');
-    });
-  
-    $('#shots').html(html.join(''));
-    });
-});
- 
-        </script>
     <meta charset="utf-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
