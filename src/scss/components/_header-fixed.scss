@@ -1,0 +1,26 @@
+// Add top padding for fixed header
+body {
+  padding-top: 5rem;
+}
+// Override top padding for transparent header -
+// We want a background image under the navigation.
+body.body--transparent-header {
+  padding-top: 0;
+}
+// fixed header
+.site-header {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  width: 100%;
+  @if($header-shadow) {
+    box-shadow: 0 0 .5rem $gray-10;
+  }
+}
+body.body--transparent-header .site-header {
+  position: absolute;
+  box-shadow: none;
+  &.scrolled {
+    position: fixed;
+  }
+}

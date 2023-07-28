@@ -1,0 +1,17 @@
+.site-footer {
+  padding-top: 1.6em;
+  padding-bottom: 1em;
+  color: $footer-txt-color;
+  background-color: $footer-bg-color;
+  p {
+    font-size: 1.3rem;
+  }
+  a {
+    text-decoration: $text-decoration-footer;
+    color: $footer-link-color;
+  }
+  a:hover,
+  a:focus {
+    color: $footer-link-hover;
+  }
+}
