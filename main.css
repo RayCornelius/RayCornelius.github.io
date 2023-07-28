@@ -155,7 +155,6 @@ display: inline-block}
 
 /* Footer */
 footer {
-    color:#273142;
     clear:both;
     padding:3em 0
 }
@@ -215,7 +214,7 @@ footer .navbar-brand {
 }
 
 footer {
-    background:#fff
+    background:#273142;
 }
 
 .wrapper footer .container {
