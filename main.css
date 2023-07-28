@@ -240,7 +240,7 @@ min-height: 90px;
 }
     
 header {
-    background:#fff;
+    background:#273142;
     margin:2em 15px;
     padding:20px 30px
 }
@@ -248,7 +248,7 @@ header {
     .navbar-header{
 margin: 0;
 padding:0;
-background: #fff;}
+background: #273142;}
 
 .intro {
     font-size:1.6em;
@@ -289,7 +289,7 @@ background: #fff;}
 }
 
 header {
-    background:#fff;
+    background:#273142;
     margin:0;
     padding:0
 }
