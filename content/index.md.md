@@ -1,6 +1,4 @@
 ---
-title: Welcome to my GitHub
+title: Welcome
 ---
-
-You will find various things within this documentation.\ 
-Ranging from, links, images, and tips and tricks.
+Welcome to my website.
